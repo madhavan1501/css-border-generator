@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    background-color: white;
+    height: 100vh;
+    user-select: none;
+}
+.container{
+    height: 600px;
+    width: 600px;
+    background-color: black;
+    position: relative;
+}
+.style-maker{
+    height: 450px;
+    width: 350px;
+    box-shadow: 0 0 15px white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: black;
+    color:white ;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+}
+#code-generator{
+    width: 100%;
+    resize: none;
+    height: 100px;
+    padding:15px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border: none;
+    box-shadow: 0 0 5px white;
+}
+.copy-button{
+    width: 80%;
+    height: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 5px;
+}
+#border-radius{
+    width: 100%;
+}
+#border-width{
+    width: 100%;
+}
+.select{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.select select{
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+}
+.input label span{
+    float: inline-end;
+}
